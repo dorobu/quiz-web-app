@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KnowQuest - Quiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Lilita+One&family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Press+Start+2P&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('quiz-bg.png');">
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <img src="https://drive.google.com/thumbnail?id=1q6y9GLOJRcnur0-5rmC2q1tzGhfwBN7s" style="height: 40px; padding: 0 1.5% 0 3.5%;">
+            <a class="navbar-title" href="#">KNOWQUEST</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"><span></span></span>
+            </button>
+            <div class="collapse navbar-collapse custom-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="elements">
+        <img class="question-mark" src="https://drive.google.com/thumbnail?id=1r5efw2DJM-jY0E2FoVwhBzvSOQmyII8U" alt="Question Mark">
+        <img class="arcade-machine" src="https://drive.google.com/thumbnail?id=13TsG6KwjyloyPUpn6J5I1SkeSm2lykYq" alt="Arcade Machine">
+    </div>
+
+    <!-- Quiz Container -->
+    <div class="quiz-container mt-5">
+        <h3 id="question-number" class="question-number">Question No.</h3>
+        <h2 id="question" class="question-text">Question</h2>
+        <div id="options" class="row justify-content-center">
+            <!--OPTIONS-->
+        </div>
+        <div class="button-container text-center mt-3">
+            <button id="prev" class="btn btn-secondary me-2 hidden">Previous</button>
+            <button id="next" class="btn btn-primary">Next</button>
+        </div>
+        
+
+    <script src="quiz.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
